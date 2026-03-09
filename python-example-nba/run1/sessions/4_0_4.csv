@@ -1,0 +1,5 @@
+# https://pub.current.posit.team/public/nba-dashboard/ --workers 1 --loaded-duration-minutes 2 --output-dir run1 --overwrite-output
+# {"appUrl":"https://pub.current.posit.team/public/nba-dashboard/","debugLog":false,"loadedDurationMinutes":2.0,"logLevel":"WARN","outputDir":"run1","overwriteOutput":true,"receiveQueueSize":50,"recordingPath":"recording.log","workers":1}
+session_id,worker_id,iteration,event,timestamp,input_line_number,comment
+4,0,4,PLAYER_SESSION_CREATE,1772468751387,0,
+4,0,4,REQ_HOME_START,1772468751538,5,

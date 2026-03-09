@@ -1,0 +1,18 @@
+version = 1
+requires-python = ">=3.12.11"
+
+[manifest]
+members = [
+    "shinyloadtest-basic-python",
+    "shinyloadtest-example-python",
+]
+
+[[package]]
+name = "shinyloadtest-basic-python"
+version = "0.1.0"
+source = { virtual = "shinyloadtest-basic-python" }
+
+[[package]]
+name = "shinyloadtest-example-python"
+version = "0.1.0"
+source = { virtual = "." }

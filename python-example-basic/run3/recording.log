@@ -1,0 +1,36 @@
+# version: 1
+# target_url: https://pub.current.posit.team/public/shinyloadtest-basic-python/
+# target_type: RStudio Server Connect
+# rscApiKeyRequired: true
+{"type":"REQ_HOME","begin":"2026-03-02T21:37:44.089Z","end":"2026-03-02T21:37:44.230Z","status":200,"url":"/"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:44.411Z","end":"2026-03-02T21:37:44.559Z","status":200,"url":"/_w_${WORKER}/lib/requirejs-2.3.6/require.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:44.566Z","end":"2026-03-02T21:37:44.749Z","status":200,"url":"/_w_${WORKER}/lib/shiny-busy-indicators-1.5.1/busy-indicators.css"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:44.755Z","end":"2026-03-02T21:37:44.912Z","status":200,"url":"/_w_${WORKER}/lib/bootstrap-5.3.1/bootstrap.bundle.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:44.918Z","end":"2026-03-02T21:37:45.058Z","status":200,"url":"/_w_${WORKER}/lib/shiny-1.5.1/shiny.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.063Z","end":"2026-03-02T21:37:45.222Z","status":200,"url":"/_w_${WORKER}/lib/jquery-3.6.0/jquery-3.6.0.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.227Z","end":"2026-03-02T21:37:45.387Z","status":200,"url":"/_w_${WORKER}/lib/bootstrap-5.3.1/bootstrap.min.css"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.393Z","end":"2026-03-02T21:37:45.526Z","status":200,"url":"/_w_${WORKER}/lib/bslib-components-0.9.0.9002/components.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.531Z","end":"2026-03-02T21:37:45.686Z","status":200,"url":"/_w_${WORKER}/lib/ionrangeslider-2.3.1/js/ion.rangeSlider.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.692Z","end":"2026-03-02T21:37:45.826Z","status":200,"url":"/_w_${WORKER}/lib/strftime-0.9.2/strftime-min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.830Z","end":"2026-03-02T21:37:45.982Z","status":200,"url":"/_w_${WORKER}/__assets__/shiny-server-client.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:45.988Z","end":"2026-03-02T21:37:46.145Z","status":200,"url":"/_w_${WORKER}/lib/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:46.150Z","end":"2026-03-02T21:37:46.278Z","status":200,"url":"/_w_${WORKER}/__assets__/rstudio-connect.css"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:46.282Z","end":"2026-03-02T21:37:46.440Z","status":200,"url":"/_w_${WORKER}/lib/selectize-0.12.6/js/selectize.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:46.445Z","end":"2026-03-02T21:37:46.608Z","status":200,"url":"/_w_${WORKER}/lib/selectize-0.12.6/accessibility/js/selectize-plugin-a11y.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:46.613Z","end":"2026-03-02T21:37:46.852Z","status":200,"url":"/_w_${WORKER}/lib/bslib-components-0.9.0.9002/web-components.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:46.857Z","end":"2026-03-02T21:37:47.008Z","status":200,"url":"/_w_${WORKER}/__assets__/sockjs.min.js"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:47.014Z","end":"2026-03-02T21:37:47.171Z","status":200,"url":"/_w_${WORKER}/lib/bootstrap-5.3.1/font.css"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:47.326Z","end":"2026-03-02T21:37:47.482Z","status":200,"url":"/_w_${WORKER}/lib/shiny-busy-indicators-1.5.1/spinners/ring.svg"}
+{"type":"REQ_TOK","begin":"2026-03-02T21:37:47.488Z","end":"2026-03-02T21:37:47.704Z","status":200,"url":"/_w_${WORKER}/__token__?_=1772487465569"}
+{"type":"REQ_GET","begin":"2026-03-02T21:37:47.984Z","end":"2026-03-02T21:37:48.147Z","status":200,"url":"/_w_${WORKER}/lib/bootstrap-5.3.1/fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2"}
+{"type":"REQ_SINF","begin":"2026-03-02T21:37:48.152Z","end":"2026-03-02T21:37:48.279Z","status":200,"url":"/__sockjs__/n=${ROBUST_ID}/t=${TOKEN}/w=${WORKER}/s=0/info?t=1772487468305"}
+{"type":"WS_OPEN","begin":"2026-03-02T21:37:49.237Z","url":"/__sockjs__/n=${ROBUST_ID}/t=${TOKEN}/w=${WORKER}/s=0/${SOCKJSID}/websocket"}
+{"type":"WS_RECV","begin":"2026-03-02T21:37:49.405Z","message":"o"}
+{"type":"WS_SEND","begin":"2026-03-02T21:37:49.482Z","message":"[\"0#0|o|\"]"}
+{"type":"WS_RECV","begin":"2026-03-02T21:37:49.522Z","message":"a[\"0#0|m|{\\\"custom\\\": {\\\"credentials\\\":{\\\"user\\\":\\\"lisa.anders@posit.co\\\",\\\"groups\\\":[\\\"Everyone\\\",\\\"Employment Group - FTE\\\",\\\"realmAWSSolEngPowerUsers\\\"]}}}\"]"}
+{"type":"WS_RECV_INIT","begin":"2026-03-02T21:37:49.523Z","message":"a[\"1#0|m|{\\\"config\\\": {\\\"workerId\\\": \\\"\\\", \\\"sessionId\\\": \\\"${SESSION}\\\", \\\"user\\\": null}}\"]"}
+{"type":"WS_SEND","begin":"2026-03-02T21:37:49.529Z","message":"[\"1#0|m|{\\\"method\\\":\\\"init\\\",\\\"data\\\":{\\\"name\\\":\\\"\\\",\\\".clientdata_output_greeting_hidden\\\":false,\\\".clientdata_pixelratio\\\":1,\\\".clientdata_url_protocol\\\":\\\"https:\\\",\\\".clientdata_url_hostname\\\":\\\"dev.current.posit.team\\\",\\\".clientdata_url_port\\\":\\\"\\\",\\\".clientdata_url_pathname\\\":\\\"/s/b5491bbae944f14e4b13d/p/d4229c59/\\\",\\\".clientdata_url_search\\\":\\\"\\\",\\\".clientdata_url_hash_initial\\\":\\\"\\\",\\\".clientdata_url_hash\\\":\\\"\\\",\\\".clientdata_singletons\\\":\\\"\\\"}}\"]"}
+{"type":"WS_RECV","begin":"2026-03-02T21:37:49.539Z","message":"a[\"6#0|m|{\\\"values\\\": {\\\"greeting\\\": \\\"Hello, !\\\"}, \\\"inputMessages\\\": [], \\\"errors\\\": {}}\"]"}
+{"type":"WS_SEND","begin":"2026-03-02T21:37:52.205Z","message":"[\"2#0|m|{\\\"method\\\":\\\"update\\\",\\\"data\\\":{\\\"name\\\":\\\"Lisa\\\"}}\"]"}
+{"type":"WS_RECV","begin":"2026-03-02T21:37:52.215Z","message":"a[\"C#0|m|{\\\"values\\\": {\\\"greeting\\\": \\\"Hello, Lisa!\\\"}, \\\"inputMessages\\\": [], \\\"errors\\\": {}}\"]"}
+{"type":"WS_CLOSE","begin":"2026-03-02T21:37:54.657Z"}
