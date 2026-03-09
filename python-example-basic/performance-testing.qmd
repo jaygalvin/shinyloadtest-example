@@ -44,7 +44,6 @@ library(shinyloadtest)
 #   connect_api_key=Sys.getenv("CONNECT_API_KEY"))
 
 Sys.setenv(connect_api_key = "REDACTED")
-Sys.setenv(connect_api_key = "E4o7yu9kRfVwN4ph9iSz1hr0MYBU4hH8")
 
 shinyloadtest::record_session(
   target_app_url='https://pub.current.posit.team/public/shinyloadtest-basic-python/',

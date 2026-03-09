@@ -1,6 +1,6 @@
-# Geyser and shinyloadtest example 
+# shinyloadtest examples
 
-This is an example of doing performance testing on a shiny application deployed on Connect. 
+This is a repo showing examples of doing performance testing on a shiny applications deployed on Connect. 
 
 You might also be interested in: <https://github.com/leesahanders/demo_app_perf/tree/main> 
 
