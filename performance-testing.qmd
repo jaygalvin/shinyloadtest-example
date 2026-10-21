@@ -14,8 +14,6 @@ editor: source
 
 Alternatively use playwright: <https://playwright.dev/> 
 
-Internal reference: <https://rstudioide.zendesk.com/agent/tickets/86733> and <https://positpbc.atlassian.net/wiki/spaces/PRO/pages/285769868/Novartis+Best+Practices+Call>
-
 ## Install
 
 `shinyloadtest` is now a Node.js (20+) CLI that replaces the Java-based `shinycannon` jar. There is nothing to download or install besides Node.js. It is currently published as a pre-release, so use the `next` tag: 
@@ -64,7 +62,7 @@ The legacy `SHINYCANNON_CONNECT_API_KEY` name is still accepted. The same variab
 ## Create "Recording" of a typical user's interaction
 
 Test a single app that has been deployed to Connect. Use the URL from the "open solo" mode on Connect.  
- - Solo mode is important. This URL, when opened with developer options, doesn't work: `https://colorado.posit.co/rsc/connect/#/apps/bec1d4bc-2ab7-4ba3-9bd6-b9e336bf3ff9/access` but this one does: `https://colorado.posit.co/rsc/content/bec1d4bc-2ab7-4ba3-9bd6-b9e336bf3ff9/`
+ - Solo mode is important. This URL, when opened with developer options, doesn't work: `https://connect.example.com/connect/#/apps/<content-guid>/access` but this one does: `https://connect.example.com/content/<content-guid>/`
 
 ```bash
 npx shinyloadtest@next record https://pub.current.posit.team/public/nba-dashboard/ --open
